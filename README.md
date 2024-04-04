@@ -1,4 +1,14 @@
-![image](https://github.com/joaodiogogithub/Site-Vendas-Template/assets/101523748/9d5635f4-8aa8-4233-9630-95088c68c8e3)
-![image](https://github.com/joaodiogogithub/Site-Vendas-Template/assets/101523748/6bccb1b0-4847-4d40-bdd6-70670a1d3edf)
-![image](https://github.com/joaodiogogithub/Site-Vendas-Template/assets/101523748/8361dc68-2198-4229-87af-57d262eaec3d)
+# Template Site de vendas
 
+- Base para site de vendas, open-source
+
+# Home
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
+# Vitrine 
+![alt text](image-3.png)
+
+# Sobre nós
+![alt text](image-4.png)

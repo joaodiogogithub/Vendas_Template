@@ -13,8 +13,28 @@ header {
     padding: 10px;
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a:hover{
+    background-color: #f1f1f1;
+    color: #333;
+}
 header h1 {
-    margin: 0;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
 }
 
 nav a {
@@ -29,6 +49,14 @@ nav a {
     text-align: center;
 }
 
+.banner h2 {
+    font-size: 40px;
+}
+
+.banner p{
+    font-size: 20px;
+}
+
 .banner img{
     width: 100%;
     height:100%
@@ -36,6 +64,14 @@ nav a {
 .featured-products {
     margin: 20px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featured-products h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
 }
 
 footer {
@@ -104,10 +140,22 @@ img{
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #000000;
-    border-radius: 0px;
-    box-shadow: 0 0 10px #f1f1f1;
-    width: fit-content;
+    width: 250px;
+    height: 400px;
+}
+
+.product button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover{
+    background-color: #b8b8b8;
+    color: #000000;
 }
 
 .product2{
@@ -116,32 +164,48 @@ img{
     align-items: center;
     margin: 30px;
     padding: 20px;
-    border: 1px solid #000000;
-    border-radius: 0px;
-    box-shadow: 0 0 10px #f1f1f1;
     width: 350px;
 }
 
 .product2 img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #000000;
+}
+
+.product2 button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product2 p{
+    font-size: 20px;
+}
+
+.product2 h3{
+    font-size: 30px;
+}
+
+.product2 button:hover{
+    background-color: #b8b8b8;
+    color: #000000;
+}
+
+.product img{
     width: 250px;
     height: 250px;
     border: 5px solid #000000;
 }
 
-.product img{
-    width: 150px;
-    height: 150px;
-    border: 1px solid #000000;
-}
-
 .about{
     margin: 20px;
     padding: 20px;
-    border: 1px solid #000000;
-    border-radius: 0px;
     box-shadow: 0 0 10px #f1f1f1;
     width: 100% - 10%;
-
 }
 
 .about h2{
@@ -153,4 +217,47 @@ img{
     text-align: justify;
     font-size: 30px;
     
+}
+
+.comments{
+    margin: 20px;
+    padding: 20px;
+    width: 100% - 10%;
+}
+
+.comment{
+    margin: 20px;
+    padding: 20px;
+    width: 100% - 10%;
+    display: flex;
+    background-image: linear-gradient(to right, #f1f1f1, #cfcfcf);
+    border-radius: 10px;
+}
+
+.comment img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.comment p{
+    font-size: 20px;
+}
+
+.qr_code{
+    margin: 20px;
+    padding: 20px;
+    width: 100% - 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.qr_code img{
+    width: 200px;
+    height: 200px;
+}
+
+.qr_code p{
+    font-size: 30px;
 }
